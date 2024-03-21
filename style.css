@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Gradiente de fundo */
+body{
+    background: linear-gradient(45deg, #c8cfcf, #8ac2cf, #5b92be);
+    /*animation: gradient 5s ease infinite; */
+    background-size: 290% 300%;
+}
+
+@keyframes gradient {
+    0% {
+    background-position: 0% 100%;
+    } 
+
+    50% {
+    background-position: 100% 0%;
+    } 
+
+    100% {
+    background-position: 0% 100%;
+    } 
+}
+
+ /* Cabeçalho da página */
+.container-cabecalho {
+    border-bottom: 2px solid #e6e9ee;
+}
+.logos-cabecalho {
+    height: 100px;
+    padding-left: 6rem;
+    display: flex;
+    align-items: center;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav_link{
+    transition: all 1s ease-out;
+}
+
+.nav_link:hover{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.Link {
+    color: #02ff6b;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Conteúdo principal da página */
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titulo principal da página */
+.container-titulo-principal{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 3.8rem;
+    color: #121213;
+}
+
+.input-texto-area1 {
+    background-color: #1545ca;
+    border: none;
+    color: #0c0202dc;
+    width: 644px;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    border: 1px solid;
+    font-size: 1.4rem;
+}
+
+textarea::placeholder {
+    color:#0c0202dc;
+    font-family: 'sarala', sans-serif;
+    font-size: 1.4rem;
+  }
+
+.texto-informacao{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'sarala', sans-serif;
+    color: #0c0c0c;
+    font-size: 1.8rem;
+}
+
+.input-texto-area2 {
+    background-color: #1545ca;
+    border: none;
+    color: #0c0202dc;
+    width: 644px;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    border: 1px solid;
+    font-size: 1.4rem;
+}
+
+/* Botões da página */
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+
+.btn-copiar{
+    background-color:#1545ca;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0c0202dc; 
+    width: 100px;
+    height: 67px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1.4px solid;
+}
+.btn{
+    background-color: #1545ca;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0c0202dc;
+    gap: 8px;
+    width: 248px;
+    height: 67px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1.4px solid;
+}
+
+.btn:hover{
+    background: linear-gradient(45deg, #3f9bb3, #155488);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+}
+
+.btn-copiar:hover{
+    background: linear-gradient(45deg, #3f9bb3, #155488);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));       
+}
+
+/* Texto para criptografar ou descriptografar */
+
+.texto-oniput{
+    font-family: 'sarala', sans-serif;
+    color: #0c0202dc;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+ /* Footer da página */
+
+.rodape{
+    height: 6vw;
+    border-top: 2px solid #eff0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83a8eb;
+}
+.rodape-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+h3{
+    font-family: 'Inter', cursive;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+@media(max-width:990px) {
+    .logos-cabecalho {
+        height: 80px;
+        padding-left: 1rem;
+    }
+
+    .links {
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_alura{
+        width: 1000px;
+    }
+    .container-titulo-principal {
+        font-size: 25px;
+        padding-top: 10px;
+
+    }
+    .input-texto-area1 {
+        height: 140px;
+        width: 345px;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    textarea::placeholder {
+        font-size: 0.5rem;
+    }
+
+    .texto-informacao {
+        gap: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .input-texto-area2{  
+        height: 140px;
+        width: 345px;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .btn-copiar{
+        width: 70px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .btn-copiar:hover{
+        background: linear-gradient(45deg, #3f9bb3, #155488);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));       
+    }
+
+    .btn:hover{
+        background: linear-gradient(45deg, #3f9bb3, #155488);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+    }
+
+    .texto-oniput {
+        font-size: 0.8rem;
+    }
+
+
+    .rodape {
+        height: 155px;
+        border-top: 2px solid #073488;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    h3 {
+        display: block;
+        padding-left: 8px;
+        font-size: 11px;
+    }
+    
+    .rodape-icons {
+        display: flex;
+        margin-right: 37px;
+        padding-left: 22px;
+        gap: 1rem;
+    }
+    
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criptografar e Descriptografar textos.">
+   
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-cabecalho"> 
+        <nav class="logos-cabecalho">
+            <ul class="links">
+                <li class="nav_links">
+                    <a class="nav_alura" target="_blank" href="https://www.alura.com.br/"><img src="/img/logoAlura.png" alt="Logo da Alura"></a>                 
+                </li>
+                <li class="nav_link">
+                    <a class="Link" target="_blank" href="https://www.oracle.com/br/education/oracle-next-education/"><img src="/img/logoOracle.png" alt="Logo da Oracle" ></a> 
+                </li>    
+            </ul>   
+        </nav>
+    </header>
+    <main class="container-principal">
+        <section>
+            <div class="container-titulo-principal">
+                <h1>Decodoficador de Texto </h1>
+            </div>
+        </section>
+        <br>
+        <section class="container-input-texto1">
+            <textarea class="input-texto-area1" cols="85" rows="10" placeholder=" Digite seu texto..."></textarea>
+        </section>  
+        <br>
+        <section>            
+            <div class="texto-informacao">
+                <i class="bi bi-exclamation-octagon-fill"></i>
+                <h6 class="informacao">Apenas letras minúsculas, sem acentos e sem cacarteres especiais</h6>
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="botoes">
+                <button class="btn" onclick="botaoCriptografar()">
+                    Criptografar  
+                </button>
+                <button class="btn-copiar" onclick="copiar()">
+                    Copiar
+                </button>
+                <button class="btn" onclick="botaoDesencriptar()">
+                    Descriptografar 
+                </button>
+            </div>
+        </section>   
+        <br><br>
+        <section class="container-input-texto2">
+            <textarea class="input-texto-area2" placeholder=" Seu texto aparece aqui!" cols="85" rows="10"></textarea>
+            <br><br>
+        </section>
+        <h2 class="texto-oniput">Digite um texto que você deseja criptografar ou descriptografar.</h2>
+        <br><br>
+    </main>
+
+    <footer class="rodape">
+        <nav class="rodape-icons">
+            <h3>Decodificador desenvolvido por <strong>Thiara Chagas</strong>.</h3>
+        </nav> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
