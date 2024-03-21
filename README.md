@@ -31,5 +31,6 @@ O resultado deve ser exibido na tela. </br>
 **Extras:**
 Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 
-#**Techs Utilizadas:**
+<br>#**Techs Utilizadas:**</br>
+
 <img alt="HTML" height="50"  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-html-markup-develop-layout-language-512.png">
