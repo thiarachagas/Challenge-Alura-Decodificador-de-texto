@@ -33,5 +33,8 @@ Um botão que copie o texto criptografado/descriptografado para a área de trans
 
 <br>#**Techs Utilizadas:**</br>
 
-<img alt="HTML" height="50"  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-html-markup-develop-layout-language-512.png"> <img alt="CSS" height="50" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-css-style-develop-layout-language-512.png"> <img alt="JS" height="50" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png"> <img alt="vscode" height="40" width="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+<img alt="HTML" height="50"  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-html-markup-develop-layout-language-512.png"> <img alt="CSS" height="50" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-css-style-develop-layout-language-512.png"> <img alt="JS" height="50" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png"> <img alt="vscode" height="40" width="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
 
+<br># **Badge pela conclusão do desafio** </br>
+
+<img alt="BADGE"  src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671211139Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_br&utm_medium=email&utm_source=RD+Station">
