@@ -38,4 +38,4 @@ Um botão que copie o texto criptografado/descriptografado para a área de trans
 <br># **Badge pela conclusão do desafio** </br>
 
 <img width="400" heigth="400" src="img/badge.png">
-<img src="img/badge.png">
+
